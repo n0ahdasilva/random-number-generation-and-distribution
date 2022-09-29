@@ -74,7 +74,7 @@ def histogram(data, data_label, nbins=NBINS):
     plt.title(data_label)
     plt.xlabel('Generated Random Numbers')
     plt.ylabel('Occurence')
-    plt.savefig(data_label + '.svg')
+    plt.savefig('histograms/' + data_label + '.svg')
 
 
 def mean(data):
